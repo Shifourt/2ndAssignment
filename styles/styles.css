@@ -1,0 +1,22 @@
+/* navigation */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.logo {
+    color: black;
+    font-weight: 700;
+    
+}
+/* navigation end */
