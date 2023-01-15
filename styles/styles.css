@@ -1,3 +1,8 @@
+/* header */
+header{
+background: #d7eec4;
+padding-bottom: 50px;
+}
 /* navigation */
 header nav {
     display: flex;
@@ -20,3 +25,37 @@ header nav li {
     
 }
 /* navigation end */
+
+/* hero section */
+.hero-section{
+    text-align: center;
+}
+.hero-information{
+    position: relative;
+    justify-content: center;
+    margin-block: 30px;
+    width: 100%;
+}
+.hero-title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.hero-title span{
+    display: block;
+} 
+.hero-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.hero-description span{
+    display: block;
+}
+.hero-banner{
+    display: flex;
+    justify-content: center;
+}
+.hero-section img{
+width: 80%;
+}
+/* hero section end */
+/* header end */
