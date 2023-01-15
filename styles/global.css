@@ -16,13 +16,22 @@ button{
     background: #FD6E0A;
 }
 .btn-primary:hover{
-    color: #FD6E0A;
-    background: white;   
+ 
 }
 main {
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 section{
     margin-top: 130px;
+}
+.hide {
+    display: none;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.silver{
+    color: silver;
 }

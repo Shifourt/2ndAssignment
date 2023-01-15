@@ -59,3 +59,162 @@ width: 80%;
 }
 /* hero section end */
 /* header end */
+
+/* Main body */
+
+/* features-section */
+.features-section{
+    display: flex;
+    position: relative;
+    align-items: center; 
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.team img{
+    width: 100%;
+}
+.features-texts{
+    width: 50%;
+    margin-inline-start: 50px;
+}
+.features-title{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.features-description{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+/* features-section end */
+
+/* experience-section */
+.experience-section{
+    display: flex;
+}
+/* experience-information */
+.experience-information{
+    width: 60%;
+    margin-right: 30px;
+}
+.experience-title{
+    font-size: 45px;
+    margin-bottom: 15px;
+    width: 70%;
+    padding: 20px;
+    border-left: 5px solid #FD6E0A;
+}
+.experience-description{
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.experience-cards{
+    list-style: none;
+    
+}
+.experience-card{
+    width: 80%;
+    padding: 20px;
+    margin-block: 10px;
+    background: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 5px rgb(231, 223, 223));
+}
+.experience-card h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.experience-card p {
+    font-size: 14px;
+}
+/* experience-information end */
+
+/* experience-image */
+.experience-image{
+    position: relative;
+}
+.experience-image img {
+    width: 100%;
+}
+.Tenyears{
+    position: absolute;
+    font-size: 45px;
+    padding: 25px;
+    left: -5%;
+    bottom: -5%;
+}
+.Tenyears span{
+    display: block;
+    font-size: 18px;
+}
+/* experience-image end */
+/* experience-section end */
+
+/* facts-section */
+.facts-title{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.facts-description{
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.facts-cards{
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+.facts-card{
+    width: 100%;
+    margin-inline: 35px;
+    padding: 45px 15px;
+    border: 2px solid #FD6E0A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    font-size: 30px;
+    margin-block: 5px;
+}
+/* facts-section end */
+
+/* sponsors-section */
+.sponsors-section{
+    text-align: center;
+}
+.sponsors-title{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.sponsors-description{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.sponsors{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.sponsor{
+    width: 100%;
+}
+/* sponsors-section end */
+/* copyright-section */
+.copyright-section p{
+    width: 100%;
+    padding: 25px;
+    background-color: #d7eec4;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+/* copyright-section end */
+
+/* Main body end */
